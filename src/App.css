@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fff;
+  min-width: 500px;
+}
+.header_all {
+  position: static;
+  width: 100%;
+}
+
+.header {
+  height: 52px;
+  padding: 10px 0;
+  width: 100%;
+  background-color: black;
+  text-align: left;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  /* position: fixed; */
+}
+.headerLeft {
+  width: 600px;
+  height: 24px;
+  padding: 15px;
+  margin: auto;
+}
+
+.headerButton {
+  flex: 1;
+  text-align: right;
+  margin: auto;
+  padding: auto;
+}
+
+.headerButton ul li {
+  display: inline-block;
+  padding-right: 10px;
+  font-weight: 200;
+}
+
+.headerContent {
+  /* position: fixed; */
+  width: 100%;
+  height: 48px;
+  margin: 16px;
+  padding: auto;
+  display: flex;
+}
+
+.headerContent .btn {
+  padding-right: 5px;
+}
+.headerContent .headerIcon1 {
+  padding: 8px;
+}
+.headerContent .headerIcon2 ul li {
+  padding-top: 9px;
+  padding-left: 20px;
+  display: inline-block;
+}
+
+.search {
+  width: 70%;
+  height: 48px;
+  border-style: none;
+  border-radius: 200px;
+  background-color: #eeeef6;
+  opacity: 1.2;
+  font-size: 18px;
+  padding-left: 10px;
+  color: black;
+  align-items: center;
+  font-weight: bold;
+}
+
+.search text {
+  color: #000;
+}
+
+.image_area {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  align-content: space-around;
+  /* flex-direction: column; */
+}
+.image_unit {
+  margin: 8px;
+  padding-top: 15px;
+}
+
+.image_unit .image_unit_image {
+  border-radius: 15px;
+}
+.imageCard .image_unit .image_content {
+  text-decoration: none !important;
+}
+.imageCard .image_content {
+  width: 220px;
+}
+.imageCard .link {
+  text-decoration: none;
+  color: #000;
+}
+
+.follow_image_unit {
+  margin: 8px;
+  padding-top: 5px;
+  padding-left: 2px;
+}
+
+.follow_comment {
+  font-size: 20px;
+  margin: 8px;
+}
+
+.follow_image_unit .image_unit_image {
+  border-radius: 100%;
+  padding-left: -5px;
+}
+.follow_image_flex {
+  display: flex;
+}
+
+.follow_intro {
+  width: 600px;
+  padding: auto;
+  margin: auto;
+}
+
+.follow_comment {
+  font-size: 20px;
+}
+
+.detail_page {
+  width: 69%;
+  margin: auto;
+  padding: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  height: auto;
+}
+
+.detail_page .detail_image {
+  border-radius: 30px 0px 0px 30px;
+}
+
+.detail_page .detail_subtitle {
+  padding: 30px;
+  height: auto;
+}
+
+.detail_page .detail_subtitle {
+  padding-top: 20px;
+  width: 500px;
+  border-radius: 0px 30px 30px 0px;
+  box-shadow: 5px 0px 15px #eee;
+  /* border: 1px solid black; */
+}
